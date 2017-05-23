@@ -13,6 +13,15 @@
 		044298B41ED301C5001093AA /* BYChat.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 044298B21ED301C5001093AA /* BYChat.xcdatamodeld */; };
 		044298B61ED301C5001093AA /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 044298B51ED301C5001093AA /* Assets.xcassets */; };
 		044298B91ED301C5001093AA /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 044298B71ED301C5001093AA /* LaunchScreen.storyboard */; };
+		044298C11ED306CC001093AA /* TableView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 044298C01ED306CC001093AA /* TableView.swift */; };
+		044298C31ED30902001093AA /* TableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 044298C21ED30902001093AA /* TableViewCell.swift */; };
+		044298C51ED30954001093AA /* ChatDataSource.swift in Sources */ = {isa = PBXBuildFile; fileRef = 044298C41ED30954001093AA /* ChatDataSource.swift */; };
+		044298C71ED309DE001093AA /* MessageItem.swift in Sources */ = {isa = PBXBuildFile; fileRef = 044298C61ED309DE001093AA /* MessageItem.swift */; };
+		044298C91ED30A70001093AA /* sz.png in Resources */ = {isa = PBXBuildFile; fileRef = 044298C81ED30A6F001093AA /* sz.png */; };
+		044298CB1ED30E2E001093AA /* Rectangle.png in Resources */ = {isa = PBXBuildFile; fileRef = 044298CA1ED30E2E001093AA /* Rectangle.png */; };
+		044298CD1ED3282C001093AA /* UserInfo.swift in Sources */ = {isa = PBXBuildFile; fileRef = 044298CC1ED3282C001093AA /* UserInfo.swift */; };
+		044298CF1ED32EE2001093AA /* TableHeaderViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 044298CE1ED32EE2001093AA /* TableHeaderViewCell.swift */; };
+		045712BF1ED3324A004105A1 /* cloud.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 045712BE1ED3324A004105A1 /* cloud.jpg */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +33,15 @@
 		044298B51ED301C5001093AA /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		044298B81ED301C5001093AA /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		044298BA1ED301C5001093AA /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		044298C01ED306CC001093AA /* TableView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TableView.swift; sourceTree = "<group>"; };
+		044298C21ED30902001093AA /* TableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TableViewCell.swift; sourceTree = "<group>"; };
+		044298C41ED30954001093AA /* ChatDataSource.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ChatDataSource.swift; sourceTree = "<group>"; };
+		044298C61ED309DE001093AA /* MessageItem.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MessageItem.swift; sourceTree = "<group>"; };
+		044298C81ED30A6F001093AA /* sz.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = sz.png; sourceTree = "<group>"; };
+		044298CA1ED30E2E001093AA /* Rectangle.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Rectangle.png; sourceTree = "<group>"; };
+		044298CC1ED3282C001093AA /* UserInfo.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UserInfo.swift; sourceTree = "<group>"; };
+		044298CE1ED32EE2001093AA /* TableHeaderViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TableHeaderViewCell.swift; sourceTree = "<group>"; };
+		045712BE1ED3324A004105A1 /* cloud.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = cloud.jpg; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -40,6 +58,7 @@
 		0442989F1ED301C5001093AA = {
 			isa = PBXGroup;
 			children = (
+				044298CE1ED32EE2001093AA /* TableHeaderViewCell.swift */,
 				044298AA1ED301C5001093AA /* BYChat */,
 				044298A91ED301C5001093AA /* Products */,
 			);
@@ -57,9 +76,17 @@
 			isa = PBXGroup;
 			children = (
 				044298AB1ED301C5001093AA /* AppDelegate.swift */,
+				044298C41ED30954001093AA /* ChatDataSource.swift */,
+				044298CC1ED3282C001093AA /* UserInfo.swift */,
+				044298C61ED309DE001093AA /* MessageItem.swift */,
 				044298AD1ED301C5001093AA /* ViewController.swift */,
+				044298C01ED306CC001093AA /* TableView.swift */,
+				044298C21ED30902001093AA /* TableViewCell.swift */,
 				044298AF1ED301C5001093AA /* Main.storyboard */,
+				044298CA1ED30E2E001093AA /* Rectangle.png */,
 				044298B51ED301C5001093AA /* Assets.xcassets */,
+				044298C81ED30A6F001093AA /* sz.png */,
+				045712BE1ED3324A004105A1 /* cloud.jpg */,
 				044298B71ED301C5001093AA /* LaunchScreen.storyboard */,
 				044298BA1ED301C5001093AA /* Info.plist */,
 				044298B21ED301C5001093AA /* BYChat.xcdatamodeld */,
@@ -127,8 +154,11 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				044298CB1ED30E2E001093AA /* Rectangle.png in Resources */,
+				045712BF1ED3324A004105A1 /* cloud.jpg in Resources */,
 				044298B91ED301C5001093AA /* LaunchScreen.storyboard in Resources */,
 				044298B61ED301C5001093AA /* Assets.xcassets in Resources */,
+				044298C91ED30A70001093AA /* sz.png in Resources */,
 				044298B11ED301C5001093AA /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -140,9 +170,15 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				044298C31ED30902001093AA /* TableViewCell.swift in Sources */,
 				044298AE1ED301C5001093AA /* ViewController.swift in Sources */,
+				044298C71ED309DE001093AA /* MessageItem.swift in Sources */,
+				044298C51ED30954001093AA /* ChatDataSource.swift in Sources */,
+				044298CD1ED3282C001093AA /* UserInfo.swift in Sources */,
+				044298C11ED306CC001093AA /* TableView.swift in Sources */,
 				044298AC1ED301C5001093AA /* AppDelegate.swift in Sources */,
 				044298B41ED301C5001093AA /* BYChat.xcdatamodeld in Sources */,
+				044298CF1ED32EE2001093AA /* TableHeaderViewCell.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -306,6 +342,7 @@
 				044298BF1ED301C5001093AA /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 
